@@ -69,6 +69,9 @@ function Navbar() {
         <Link to="/projects" style={linkStyle} onClick={() => setIsOpen(false)}>
           Projects
         </Link>
+        <Link to="/resume" style={linkStyle} onClick={() => setIsOpen(false)}>
+          Resume
+        </Link>
       </div>
     </div>
   );

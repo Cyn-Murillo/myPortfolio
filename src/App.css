@@ -1,0 +1,43 @@
+/* Global base styles */
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: linear-gradient(to bottom right, #1e1e2f, #4c446f);
+  color: #eaeaea;
+  min-height: 100vh;
+}
+
+/* Layout and page structure */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #474659;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #474659;
+}
+
+/* Links */
+a {
+  color: #c8a2c8;
+  text-decoration: none;
+}
+a:hover {
+  color: #f2eafa;
+  text-decoration: underline;
+}
