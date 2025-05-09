@@ -11,7 +11,7 @@ import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#e9dfe9", minHeight: "100vh" }}>
+    <div className="app-wrapper">
       <Router>
         <Layout>
           <Routes>

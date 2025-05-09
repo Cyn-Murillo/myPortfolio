@@ -1,6 +1,6 @@
 function Resume () {
     return (
-      <div>
+      <div className="main-content">
         <h1>Resume</h1>
         <p>Click below to view or download my resume:</p>
         <a
@@ -8,7 +8,7 @@ function Resume () {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            color: "#757491",
+            color: "#77bbbb",
             textDecoration: "underline",
             fontSize: "18px"
           }}
