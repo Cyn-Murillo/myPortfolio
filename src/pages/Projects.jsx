@@ -46,7 +46,6 @@ function Projects() {
     <div className="main-content">
       <h1>My Projects</h1>
 
-      {/* Personal Projects */}
       <div className="project-grid">
         {personalProjects.map((proj, index) => (
           <div className="project-card" key={index}>
@@ -57,10 +56,8 @@ function Projects() {
         ))}
       </div>
 
-      {/* Coursework Heading */}
       <h2 className="section-heading">Coursework</h2>
 
-      {/* Coursework Projects */}
       <div className="project-grid">
         {courseworkProjects.map((proj, index) => (
           <div className="project-card" key={index}>

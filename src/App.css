@@ -25,7 +25,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 100vh;
+  min-height: fit-content;
 }
 
 
@@ -49,7 +49,7 @@ body {
 }
 
 .main-content {
-  padding: 4rem 2rem 2rem 2rem; 
+  padding: 1rem 2rem 2rem 2rem; 
 }
 
 
@@ -70,6 +70,18 @@ p {
   color: #e9dfe9;
 }
 
+.about-content {
+  padding: 4rem 6rem 4rem 6rem;
+  font-size: 1.3rem;
+  color: white;
+  text-align: justify;
+  background-color: rgba(29, 44, 44, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 /* Links */
 a {
   color: white;
@@ -81,91 +93,54 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Sidebar base */
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #77bbbb;
-  opacity: 0.9;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
 
-/* Sidebar when open */
-.sidenav.open {
-  width: 125px;
-}
-
-.sidebar-social {
-  margin-top: 2rem;
+.top-nav {
   display: flex;
-  justify-content: space-around;
-}
-
-
-/* Navigation links */
-.nav-link {
-  padding: 8px 32px;
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  display: block;
-  transition: 0.3s;
-}
-
-/* Close button inside sidebar */
-.close-button {
-  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(119, 187, 187, 0.4);
+  padding: 1rem 2rem;
+  position: sticky;
   top: 0;
-  right: 10px;
-  font-size: 24px;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-brand {
+  font-family: 'Dancing Script', cursive;
   color: white;
-  border: none;
-  background: transparent;
-  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
-/* Open menu button (☰) */
-.menu-button {
-  background-color: transparent;
-  border: none;
-  padding: 10px;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  z-index: 2;
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
 }
 
-/* Menu icon (3 lines) */
-.menu-icon {
-  display: inline-block;
-  width: 25px;
-  height: 2px;
-  background-color: #77bbbb;
-  position: relative;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-.menu-icon::before,
-.menu-icon::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 2px;
-  background-color: #77bbbb;
-  transition: 0.3s;
+.nav-links a:hover {
+  color: #084040;
 }
 
-.menu-icon::before {
-  top: -8px;
+.top-nav-social {
+  display: flex;
+  gap: 1.2rem;
 }
 
-.menu-icon::after {
-  top: 8px;
+.top-nav-social i {
+  font-size: 1.2rem;
+  color: #e9dfe9;
+  transition: color 0.3s ease;
+}
+
+.top-nav-social i:hover {
+  color: #aef2dc;
 }
 
