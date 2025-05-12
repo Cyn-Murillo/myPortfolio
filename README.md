@@ -1,12 +1,52 @@
-# React + Vite
+# Cynthia Murillo's Portfolio (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio built with React and Vite. I designed it from scratch to showcase my work as a Software Engineer.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [https://cyn-murillo.github.io/myPortfolio/](https://cyn-murillo.github.io/myPortfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Font Awesome
+- Google Fonts
+- GitHub Pages (for deployment)
+
+---
+
+## Features
+
+- Responsive design
+- Top navigation bar with smooth links
+- Animated background with custom styling
+- Dynamic project cards with external links
+- Resume page with downloadable PDF
+- About section and coursework samples
+
+---
+
+## Projects Included
+
+- **Portfolio (React)** – This site you're viewing
+- **Expense Tracker (Django)** – Backend project with file upload and user auth
+- **HealthyBites (React Native / Figma)** – Group UI prototype
+- **WordPress Project** – Themed webpage exploring content structure
+- **Interactive Web Pages (JS/HTML)** – Coursework using DOM, events, and semantic HTML
+
+---
+
+## Resume
+
+Check out my resume [here](https://cyn-murillo.github.io/myPortfolio/CMurillo_Resume.pdf).
+
+---
+
+## Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/cynthia-murillo25/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&style=flat-square)](https://github.com/Cyn-Murillo)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?logo=HackerRank&style=flat-square)](https://www.hackerrank.com/profile/cmurill9)
