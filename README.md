@@ -32,8 +32,8 @@ This is my personal developer portfolio built with React and Vite. I designed it
 ## Projects Included
 
 - **Portfolio (React)** – This site you're viewing
-- **Expense Tracker (Django)** – Backend project with file upload and user auth
-- **HealthyBites (React Native / Figma)** – Group UI prototype
+- **Expense Tracker (Django)** – Backend project with file upload and user authentication
+- **HealthyBites (Figma)** – Group UI prototype
 - **WordPress Project** – Themed webpage exploring content structure
 - **Interactive Web Pages (JS/HTML)** – Coursework using DOM, events, and semantic HTML
 
