@@ -1,6 +1,19 @@
 import React from "react";
 import "./Projects.css";
 
+const cybersecurityProjects = [
+  {
+    title: "Log-Analyzer",
+    description: "A command-line security tool that analyzes server log files to detect failed login attempts and flag suspicious IP addresses.",
+    link: "https://github.com/Cyn-Murillo/log-analyzer",
+  },
+  {
+    title: "Password-Checker",
+    description: "A command-line tool that analyzes password strength and provides detailed feedback to help users create more secure passwords.",
+    link: "https://github.com/Cyn-Murillo/password-checker",
+  },
+];
+
 const personalProjects = [
   {
     title: "Portfolio (React)",
@@ -45,6 +58,20 @@ function Projects() {
   return (
     <div className="main-content">
       <h1>My Projects</h1>
+
+      <h2 className="section-heading">Cybersecurity</h2>
+
+      <div className="project-grid">
+        {cybersecurityProjects.map((proj, index) => (
+          <div className="project-card" key={index}>
+            <h2>{proj.title}</h2>
+            <p>{proj.description}</p>
+            <a href={proj.link} target="_blank" rel="noreferrer">View Project</a>
+          </div>
+        ))}
+      </div>
+
+      <h2 className="section-heading">Software Engineering</h2>  
 
       <div className="project-grid">
         {personalProjects.map((proj, index) => (

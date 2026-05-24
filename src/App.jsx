@@ -12,7 +12,7 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <div className="app-wrapper">
-      <Router>
+      <Router basename="/myPortfolio">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
