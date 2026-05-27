@@ -12,6 +12,11 @@ const cybersecurityProjects = [
     description: "A command-line tool that analyzes password strength and provides detailed feedback to help users create more secure passwords.",
     link: "https://github.com/Cyn-Murillo/password-checker",
   },
+  {
+    title: "Secure-Login",
+    description: "Django is a web application which demonstrates secure authentication practices as well as common AppSec concepts.",
+    link: "https://github.com/Cyn-Murillo/secure-login",
+  },
 ];
 
 const personalProjects = [
